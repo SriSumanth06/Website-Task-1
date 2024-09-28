@@ -1,0 +1,179 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+}
+
+.nav-links a:hover {
+    background-color: #000000;
+}
+
+.carousel {
+    max-width: 14500px;
+    margin: auto;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.centered-card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.centered-card h5 {
+    font-size: 2rem;
+}
+
+.centered-card p {
+    font-size: 1.2rem;
+}
+
+.container-fluid {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+h2 {
+    color: #343a40;
+}
+
+h3 {
+    color: #007bff;
+}
+
+p {
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #000000;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content p{
+    color: white;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #f39c12;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    color: #fffbfb;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #f39c12;
+}
